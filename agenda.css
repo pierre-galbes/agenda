@@ -14,17 +14,17 @@ h1#titreform{
     padding: 20px; ;  
 }
 
-form.form{
+div.formulaire{
     position: absolute;
-      left: 800px;
-      color: white;
-      background-color:rgb(153, 114, 28);
-      border-radius: 15px;
-      height: 80px;
-      padding: 30px;
+    left: 800px;
+    color: white;
+    background-color:rgb(153, 114, 28);
+    border-radius: 15px;
+    height: 80px;
+    padding: 30px;
 } 
 
-input#bouton1{
+button#boutonform{
     position: relative;
     left: 50px;
     top: 10px;
@@ -72,37 +72,12 @@ tr.repas{
     color: rgb(255, 38, 0);
 }
 
-form.bouton2{
+form.boutonagenda{
     display: flex;
     justify-content:center ;
     background: rgb(3, 3, 3);
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
