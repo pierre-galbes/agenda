@@ -4,54 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="agenda css.css">
-    <title>FORMULAIRE</title>
+    <link rel="stylesheet" href="agenda 2.css">
+    <title>formulaire</title>
 </head>
-<body class="formulaire">
+<body class="form">
 
-    <header class="formulaire">
-        <h1 class="formulaire"> FORMULAIRE</h1>
-    </header>
-    
-<table class="formulaire">
+ <header class="form">
+  <h1 id="titreform">FORMULAIRE</h1>
+ </header>  
 
-<tr class="formulaire">
-  
-  <td class="formulaire"> 
-    EVENEMENT:       
-    <select name="rdv" id="rdv">
-    <option valeur="RDV">RDV</option>
-    <option valeur="SORTIE">SORTIE</option>
-    <option valeur="ANNIVERSAIRE">ANNIVERSAIRE</option>
-    <option valeur="AUTRES">Autres</option>
-  </input>      
-</select>
-</td>
+ <main>
+   <form class="form" action="/my-handling-form-page" method="post">
+       <div class="eve">
+           <label for="even">Evenement :</label>
+           <input type="even" id="even" name="even">
+       </div>
+       <div class="date">
+           <label for="date">Date :</label>
+           <input type="date" id="date" name="date">
+       </div>
+      <div class="heure">
+           <label for="heure">Heure :</label>
+           <input type="time" id="appt-time" name="appt-time">
+       </div>
+       <input id="bouton1" type="button" onclick="window.location.href = 'file:///C:/Users/pierr/Desktop/agenda%202.html';" value="ENVOYER"/>
+   </form>
+ </main>
 
-</tr>
+  <footer>
 
-<tr class="formulaire">
-  
-  <td class="formulaire"> DATE: <input type="date" id="start" name="trip-start"
-    value="2018-07-22"
-    min="2018-01-01" max="2018-12-31">  </td>
-
-</tr>
-
-<tr class="formulaire">
-  
-  <td class="formulaire"> HEURE:  <input id="appt-time" type="time" name="appt-time"
-    min="12:00" max="18:00"> </td>
-
-
-</tr>
-
-</table>
-
-
-<form class="bouton">
-  <input class="bouton1" type="button" onclick="window.location.href = 'file:///C:/Users/pierr/Desktop/agenda%20.html';" value="ENVOYER"/>
-</form>
-
+  </footer>    
 </body>
 </html>
